@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="76.0" style="-fx-background-color: #30C3A8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="450.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="44.0" fitWidth="50.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0" AnchorPane.bottomAnchor="330.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+               <image>
+                  <Image url="@../../../../Downloads/Icons/github_white.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #30C3A8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="450.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane layoutX="50.0" prefHeight="200.0" prefWidth="401.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutY="27.0" prefHeight="44.0" prefWidth="119.0" style="-fx-background-color: #30C3A8;" text="View in GitHub" textFill="WHITE" AnchorPane.bottomAnchor="330.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="280.0" AnchorPane.topAnchor="30.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="132.0" layoutY="310.0" prefHeight="20.0" prefWidth="132.0" text="Me Differently" textFill="#30c3a8" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="135.0">
+               <font>
+                  <Font name="AR JULIAN" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="156.0" layoutY="336.0" text="Enrique Vaquero" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0">
+               <font>
+                  <Font name="Baskerville Old Face" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="135.0" layoutY="362.0" text="Programmers can design" textFill="#868383" AnchorPane.leftAnchor="134.0" AnchorPane.rightAnchor="134.0" />
+            <Button defaultButton="true" layoutX="314.0" layoutY="358.0" mnemonicParsing="false" mouseTransparent="true" prefHeight="25.0" prefWidth="63.0" stylesheets="@Styles.css" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="360.0" />
+            <AnchorPane layoutY="152.0" prefHeight="133.0" prefWidth="400.0" AnchorPane.bottomAnchor="115.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="152.0">
+               <children>
+                  <ImageView fitHeight="131.0" fitWidth="114.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="276.0" AnchorPane.topAnchor="10.0">
+                     <image>
+                        <Image url="@../../../../Downloads/Icons/profilephoto.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="131.0" fitWidth="114.0" layoutX="143.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.topAnchor="10.0">
+                     <image>
+                        <Image url="@../../../../Downloads/Icons/profilephoto.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="131.0" fitWidth="114.0" layoutX="272.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                     <image>
+                        <Image url="@../../../../Downloads/Icons/profilephoto.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
